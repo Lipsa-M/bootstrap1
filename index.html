@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- navbar --> 
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Events</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contact Us
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Mobile📞</a></li>
+                  <li><a class="dropdown-item" href="#">Email</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Write your complaint here</a></li>
+                </ul>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li> -->
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+            <div class="mx-2">
+              <button class="btn btn-danger">Create Event</button>
+              <button class="btn btn-danger">Log Out</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img style="height: 80vh;" src="aleksandr-popov-hTv8aaPziOQ-unsplash.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Techno-Cultural Fest</h5>
+              <p>Techno-cultural fest AVYAKT 2.0 will be organised by department of CSE</p>
+              <button class="btn btn-danger">Register</button>
+              <button class="btn btn-primary">Visit</button>
+              <button class="btn btn-success">Contact Us</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img style="height: 80vh;" src="danny-howe-bn-D2bCvpik-unsplash.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Cultural Fest 2K23</h5>
+              <p>Starting this new year with a fantastic cultural fest.</p>
+              <button class="btn btn-danger">Register</button>
+              <button class="btn btn-primary">Visit</button>
+              <button class="btn btn-success">Contact Us</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img style="height: 80vh;" src="nguy-n-hi-p-sTTeaN4wwrU-unsplash.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Mega Blood Donation Camp</h5>
+              <p>MBD will be organised by NSS club. This time we aim to collect 1001 units of blood.</p>
+              <button class="btn btn-danger">Register</button>
+              <button class="btn btn-primary">Visit</button>
+              <button class="btn btn-success">Contact Us</button>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="container my-4">
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary">Coding Contest</strong>
+            <h3 class="mb-0">Featured post</h3>
+            <div class="mb-1 text-muted">Jan 12</div>
+            <p class="card-text mb-auto"> Hey Geeks! A coding contest will be organised by GDSC GIETU for Btech 1st and 2nd year folks.</p>
+            <a href="#" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250" src="mailchimp-YTZOyio3Udk-unsplash.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success">University Hacathon</strong>
+            <h3 class="mb-0">Post title</h3>
+            <div class="mb-1 text-muted">Feb 23</div>
+            <p class="mb-auto">Participate in the college level hackathon.Here we will solve the college's problems with your innovative ideas.</p>
+            <a href="#" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250" src="alex-kotliarskyi-QBpZGqEMsKg-unsplash.jpg" alt="">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container my-4">
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-danger">Graphic Designing</strong>
+            <h3 class="mb-0">Featured post</h3>
+            <div class="mb-1 text-muted">Jan 25</div>
+            <p class="card-text mb-auto">Graphic design competitions, awards and website features are a great opportunity to gain recognition for your design work within our community.+</p>
+            <a href="#" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250" src="nordwood-themes-ubIWo074QlU-unsplash.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-warning">Mascot Designing</strong>
+            <h3 class="mb-0">Post title</h3>
+            <div class="mb-1 text-muted">Feb 10</div>
+            <p class="mb-auto">Draw beautiful and innovative mascots which will represent the upcoming Hockey World cup 2K24.</p>
+            <a href="#" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250" src="daniel-lloyd-blunk-fernandez-O1hjJ_GT5DQ-unsplash.jpg" alt="">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><br>
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>© 2022–2023 GIETU, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+  </footer> 
+    
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+</body>
+</html>
